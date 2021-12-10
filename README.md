@@ -1,17 +1,8 @@
 # Phase 1 Project Description
 
-You've made it all the way through the first phase of this course - take a minute to celebrate your awesomeness!
 
 ![awesome](https://raw.githubusercontent.com/learn-co-curriculum/dsc-phase-1-project-v2-3/master/awesome.gif)
 
-Now you will put your new skills to use with a large end-of-Phase project!
-
-In this project description, we will cover:
-
-* [***Project Overview:***](#project-overview) the project goal, audience, and dataset
-* [***Deliverables:***](#deliverables) the specific items you are required to produce for this project
-* [***Grading:***](#grading) how your project will be scored
-* [***Getting Started:***](#getting-started) guidance for how to begin your first project
 
 ## Project Overview
 
@@ -21,23 +12,110 @@ For this project, you will use exploratory data analysis to generate insights fo
 
 Microsoft sees all the big companies creating original video content and they want to get in on the fun. They have decided to create a new movie studio, but they don’t know anything about creating movies. You are charged with exploring what types of films are currently doing the best at the box office. You must then translate those findings into actionable insights that the head of Microsoft's new movie studio can use to help decide what type of films to create.
 
+### Stakeholder
+
+Microsoft
+
 ### The Data
 
-In the folder `zippedData` are movie datasets from:
+##### 1) In the folder `Data` are movie datasets from:
 
 * [Box Office Mojo](https://www.boxofficemojo.com/)
+Database containing data scraped from Box Office Mojo website, that tracks box-office revenue in a systematic, algorithmic way.
+a) bom.movie_gross.csv 
+Type of Information: Revenue data
+
+Film name
+Studio
+Domestic gross revenue
+Foreign gross revenue
+Year of production
+
 * [IMDB](https://www.imdb.com/)
-* [Rotten Tomatoes](https://www.rottentomatoes.com/)
+Databases containing data scraped from IMDB website. The largest website related to movies.
+a) imdb.name.basics.csv -
+Type of Information: Names of directing staff and their best known films
+
+PersonID
+Name
+Profession
+Well known filmID
+
+b) imdb.title.akas.csv 
+Type of Information: Regions of film destribution and local film names.
+
+FilmID
+Region
+Film name on local language
+Original film name
+
+c) imdb.title.principals.csv
+Type of Information: Information about film directors and writers
+
+FilmID
+DirectorsID
+WritersID
+
+d) imdb.title.basics.csv
+Type of Information: Information about start date, runtime and genres
+
+FilmID
+Primary film name
+Original film name
+Start date
+Runtime
+Genres
+
+e) File imdb.title.ratings.csv
+Type of Information: Film raiting, IMDB version
+
+FilmID
+Average raiting
+Number of voites
+
 * [TheMovieDB](https://www.themoviedb.org/)
-* [The Numbers](https://www.the-numbers.com/)
+The Movie Database (TMDB) is a community built movie and TV database.
 
-It is up to you to decide what data from this to use and how to use it. If you want to make this more challenging, you can scrape websites or make API calls to get additional data. If you are feeling overwhelmed or behind (e.g. struggled with the Phase 1 Code Challenge), we recommend you use only the following data files:
+a) tmdb.movies.csv Type of Information: Information about film production date, name and raiting basd on TMDB
 
-* imdb.title.basics
-* imdb.title.ratings
-* bom.movie_gross
+Film name
+Release date
+Average raiting
+Number of voites
 
-### Key Points
+* [The Numbers](https://www.the-numbers.com/
+The Numbers is a film industry data website that tracks box office revenue in a systematic, algorithmic way 
+
+a) tn.movie_budgets.csv Type of Information: Information about film production date, budget and revenue
+
+Film name
+Release date
+Production Budget
+Local gross revenue
+International gross revenue
+The Movie Database (TMDB)
+
+
+
+##### In the folder `Output` are output images:
+./Output/Market_estimation.png - market estimation of Box office
+./Output/Studios_box.png - Histogram of box offices of 6 major studios-competitors
+./Output/Studios_box_75th.png - Histogram of box offices of 6 major studios-competitors 75th percentile
+./output/Cost-rev_scatter.png - Scatterplot of correlation between worldwide box office and production cost
+./output/Cost-rev_scatter_cathegories.png - Scatterplot of correlation between worldwide box office and production cost with films divided into 4 major cathegories
+./output/Ganres_nofilter.png - Average annual number of films in different genres without any filters. This graph shows how many redundant data we have
+./output/Distribution_closer_no_filter.png  - Average annual number of films in different genres without any filters and with droped 3 major cathegories. This graph shows how many redundant data we have
+./output/Average_number_with3filters.png - Average annual number of films in different genres after appliyin 3 filter to reduce the amount of data and improve the quality.
+./output/Most_popular_ganres.png - most popular Genres, their mean box office and number of films. X axis genres, Y - raiting (by voiting on IMDB.com), size - number of movies, hue - average box office
+./output/Ganres_boxOffice.png   - barplot representing median worldwide box office for each genre.
+./output/Ganres_boxplot.png - boxplot for each genre worldwide box office. Needed for in-depth research
+./output/Director_raitings.png - Raiting of movies of the most popular directors 
+
+
+##### In the folder `IMG` are images used in jupyter notebook.
+
+
+### Key business recommendations:
 
 * **Your analysis should yield three concrete business recommendations.** The ultimate purpose of exploratory analysis is not just to learn about the data, but to help an organization perform better. Explicitly relate your findings to business needs by recommending actions that you think the business (Microsoft) should take.
 
