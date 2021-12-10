@@ -125,7 +125,7 @@ The Movie Database (TMDB)
 ##### In the folder `IMG` are images used in jupyter notebook.
 
 
-### Key business recommendations:
+## Key business recommendations:
 
 1) BUDGET
 The planned budget for film should be : 20+ mln USD:
@@ -139,8 +139,7 @@ The studio should focus on genres:
 - animation,
 - sci-fi
 Films in these genres have higher raiting and the highest box office with the median value 200M +
-- Action 
-Can be considered as an option for low budget films. 
+- Action  movies can be considered as an option for a low budget films. 
 
 3) DIRECTORS
 There are a variety of top-performing directors to choose from. The list is provided with this report.
