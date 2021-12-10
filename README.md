@@ -146,3 +146,12 @@ Jupyter Notebook is available in the root of this folder:
 
 
 ## Visualizations:
+
+![Market Estimation](https://github.com/314ka4y/dsc-phase-1-project-v2-3/blob/master/Output/Market_estimation.png)
+![Major Studios film box office histogram](https://github.com/314ka4y/dsc-phase-1-project-v2-3/blob/master/Output/Studios_box.png)
+![Average number of films per genre](https://github.com/314ka4y/dsc-phase-1-project-v2-3/blob/master/Output/Average_number_with3filters.png)
+![Most popular genres](https://github.com/314ka4y/dsc-phase-1-project-v2-3/blob/master/Output/Most_popular_ganres.png)
+![Mean box office per genre](https://github.com/314ka4y/dsc-phase-1-project-v2-3/blob/master/Output/Ganres_boxOffice.png)
+![Poxplot box office per genre(advance research)](https://github.com/314ka4y/dsc-phase-1-project-v2-3/blob/master/Output/Ganres_boxplot.png)
+![Popular directors](https://github.com/314ka4y/dsc-phase-1-project-v2-3/blob/master/Output/Director_raitings.png)
+
