@@ -96,18 +96,30 @@ The Movie Database (TMDB)
 
 
 ##### In the folder `Output` are output images:
+
 ./Output/Market_estimation.png - market estimation of Box office
+
 ./Output/Studios_box.png - Histogram of box offices of 6 major studios-competitors
+
 ./Output/Studios_box_75th.png - Histogram of box offices of 6 major studios-competitors 75th percentile
-./output/Cost-rev_scatter.png - Scatterplot of correlation between worldwide box office and production cost
-./output/Cost-rev_scatter_cathegories.png - Scatterplot of correlation between worldwide box office and production cost with films divided into 4 major cathegories
-./output/Ganres_nofilter.png - Average annual number of films in different genres without any filters. This graph shows how many redundant data we have
-./output/Distribution_closer_no_filter.png  - Average annual number of films in different genres without any filters and with droped 3 major cathegories. This graph shows how many redundant data we have
-./output/Average_number_with3filters.png - Average annual number of films in different genres after appliyin 3 filter to reduce the amount of data and improve the quality.
-./output/Most_popular_ganres.png - most popular Genres, their mean box office and number of films. X axis genres, Y - raiting (by voiting on IMDB.com), size - number of movies, hue - average box office
-./output/Ganres_boxOffice.png   - barplot representing median worldwide box office for each genre.
-./output/Ganres_boxplot.png - boxplot for each genre worldwide box office. Needed for in-depth research
-./output/Director_raitings.png - Raiting of movies of the most popular directors 
+
+./Output/Cost-rev_scatter.png - Scatterplot of correlation between worldwide box office and production cost
+
+./Output/Cost-rev_scatter_cathegories.png - Scatterplot of correlation between worldwide box office and production cost with films divided into 4 major cathegories
+
+./Output/Ganres_nofilter.png - Average annual number of films in different genres without any filters. This graph shows how many redundant data we have
+
+./Output/Distribution_closer_no_filter.png  - Average annual number of films in different genres without any filters and with droped 3 major cathegories. This graph shows how many redundant data we have
+
+./Output/Average_number_with3filters.png - Average annual number of films in different genres after appliyin 3 filter to reduce the amount of data and improve the quality.
+
+./Output/Most_popular_ganres.png - most popular Genres, their mean box office and number of films. X axis genres, Y - raiting (by voiting on IMDB.com), size - number of movies, hue - average box office
+
+./Output/Ganres_boxOffice.png   - barplot representing median worldwide box office for each genre.
+
+./Output/Ganres_boxplot.png - boxplot for each genre worldwide box office. Needed for in-depth research
+
+./Output/Director_raitings.png - Raiting of movies of the most popular directors 
 
 
 ##### In the folder `IMG` are images used in jupyter notebook.
